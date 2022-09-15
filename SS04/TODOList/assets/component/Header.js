@@ -4,7 +4,7 @@ var day = new Date();
 function Header() {
     return html `
         <header class="header">
-            <h1>${day.getDay()}/${day.getMonth() + 1}/${day.getFullYear()}</h1>
+            <h1>${day.getDate()}/${day.getMonth() + 1}/${day.getFullYear()}</h1>
             <input 
                 class="new-todo" 
                 placeholder="What needs to be done?" 
